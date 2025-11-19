@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    
 }
 
 /* ONE PAGE SCROLL */
@@ -16,7 +17,9 @@ html {
     width: 100%;
 }
 
+
 /* ===== SECTION 1: HERO ===== */
+
 
 .hero {
  
@@ -26,6 +29,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(80deg, #ff6596, #8fb4f0);
     text-align: center;
 }
 
@@ -35,7 +39,7 @@ html {
 }
 
 .blue {
-    color: #2D9CFF;
+    color: #dcdee0;
 }
 
 .black {
@@ -170,6 +174,10 @@ html {
 .projects-title {
     font-size: 36px;
     font-weight: 700;
+    
+}
+span.blue {
+    color: #2D9CFF;
 }
 
 .projects-subtitle {
